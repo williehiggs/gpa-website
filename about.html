@@ -5,7 +5,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2210%22 fill=%22%230a0a0a%22/><text y=%22.9em%22 x=%2250%22 text-anchor=%22middle%22 font-size=%2280%22 dominant-baseline=%22central%22>⚡</text></svg>" type="image/svg+xml">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About GPA | 7 Years of Outbound Experience</title>
-<link rel="canonical" href="https://gpasms.com/about">
+<link rel="canonical" href="https://www.gpasms.com/about.html">
 <meta name="description" content="Global Profit Advisors was built by operators with 7+ years of outbound experience. 5M+ messages sent, 140+ clients served across 12 industries.">
 <meta name="keywords" content="global profit advisors, gpa sms, outbound marketing agency, real estate lead generation company">
 <meta property="og:title" content="About GPA | 7 Years of Outbound Experience">
@@ -13,6 +13,7 @@
 <meta property="og:description" content="Global Profit Advisors was built by operators with 7+ years of outbound experience. 5M+ messages sent, 140+ clients served across 12 industries.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="GPA SMS | Global Profit Advisors">
+<meta property="og:image" content="https://www.gpasms.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="About GPA | 7 Years of Outbound Experience">
 <meta name="twitter:description" content="Global Profit Advisors was built by operators with 7 years of outbound campaign experience across SMS, cold calling, and cold email. 140+ clients served, 5M+ messages managed.">
@@ -43,7 +44,13 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 .nav-links .cta-btn { padding: 10px 24px; font-size: 13px; background: var(--yellow); color: var(--black); border: 2px solid var(--yellow); font-weight: 700; }
 .nav-phone { display: none; }
 @media (min-width: 768px) { .nav-phone { display: inline; } }
-@media (max-width: 640px) { .nav-links a:not(.cta-btn) { display: none; } }
+@media (max-width: 640px) {
+
+  .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .values-grid { grid-template-columns: 1fr !important; }
+  .timeline-item { grid-template-columns: 60px 1fr !important; }
+
+  body { padding-bottom: 56px; } .nav-links a:not(.cta-btn) { display: none; } }
 
 .section-eyebrow { font-family: 'Barlow Condensed', sans-serif; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 4px; color: var(--yellow); margin-bottom: 16px; }
 .section-title { font-family: 'Oswald', sans-serif; font-size: clamp(32px, 4vw, 48px); font-weight: 700; text-transform: uppercase; line-height: 1.1; margin-bottom: 20px; }
@@ -106,6 +113,15 @@ footer img { height: 36px; width: auto; margin-bottom: 12px; display: block; mar
   }
 }
 </script>
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CCYELH3EG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-9CCYELH3EG");
+</script>
+<meta name="twitter:image" content="https://www.gpasms.com/og-image.png">
 </head>
 <body>
 
